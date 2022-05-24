@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>CSS Generator</title>
+	</head>
+	<body>
+		<link rel="stylesheet" href="CSS Generator.css" />
+		<div class="range-wrap">
+			<div class="range-slider">
+				<div class="label-range">
+					<h4 style="color: rgb(17, 153, 207)">Top left corner:</h4>
+				</div>
+				<input
+					id="range1"
+					type="range"
+					name="range1"
+					min="0"
+					max="100"
+					step="1"
+					value="0"
+					oninput="fun1()"
+				/>
+				<h4 type="text" id="ttl" value="0"></h4>
+
+				<div class="label-range">
+					<h4 style="color: rgb(17, 153, 207)">Top right corner:</h4>
+				</div>
+				<input
+					id="range2"
+					type="range"
+					name="range2"
+					min="0"
+					max="100"
+					step="1"
+					value="0"
+					oninput="fun1()"
+				/>
+				<h4 type="text" id="ttr" value="0"></h4>
+
+				<div class="label-range">
+					<h4 style="color: rgb(17, 153, 207)">Lower right corner:</h4>
+				</div>
+				<input
+					id="range3"
+					type="range"
+					name="range3"
+					min="0"
+					max="100"
+					step="1"
+					value="0"
+					oninput="fun1()"
+				/>
+				<h4 type="text" id="tbr" value="0"></h4>
+
+				<div class="label-range">
+					<h4 style="color: rgb(17, 153, 207)">Lower left corner:</h4>
+				</div>
+				<input
+					id="range4"
+					type="range"
+					name="range4"
+					min="0"
+					max="100"
+					step="1"
+					value="0"
+					oninput="fun1()"
+				/>
+				<h4 type="text" id="tbl" value="0"></h4>
+
+				<div
+					style="width: 30%; margin: 0 auto; text-align: center"
+					id="block"
+				></div>
+			</div>
+		</div>
+
+		<script src="CSS Generator.js"></script>
+	</body>
+</html>
